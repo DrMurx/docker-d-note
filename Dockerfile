@@ -19,4 +19,4 @@ ENV THREADS=2
 VOLUME /dnote
 EXPOSE 8080
 
-CMD /usr/local/bin/uwsgi-http-dnote.sh
+CMD [ "/usr/local/bin/uwsgi-http-dnote.sh" ]
